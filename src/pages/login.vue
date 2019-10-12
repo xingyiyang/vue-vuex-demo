@@ -20,7 +20,7 @@
             />
         </div>
         <button class="btn" @click="login">登录</button>
-        <p class="login-text">版本归属@ytu所有</p>
+        <p class="login-text">版本归属@mooc所有</p>
     </div>
     
 </template>
@@ -35,8 +35,8 @@ export default {
             isPassword: true,
             logs: [],
             form: {
-                account: "",
-                password: ""
+                account: "123",
+                password: "123"
             }
         };
     },

@@ -13,6 +13,7 @@ Vue.use(Vuex)
 
 Vue.prototype.$store  = store
 
+//每跳到新的路由之前，做判断
 router.beforeEach((to, from, next) => {
   if (store.state.userInfo || to.path === "/login"){
     next()
