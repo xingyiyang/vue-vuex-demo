@@ -1,6 +1,7 @@
-# fourall
+# vue-vuex-demo
 
 > A Vue.js project
+> 出处： https://www.imooc.com/learn/1157
 
 ## Build Setup
 
